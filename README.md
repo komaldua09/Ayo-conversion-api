@@ -15,3 +15,9 @@ To run the application:
 
 ###Accessing swagger
 http://localhost:8080/swagger-ui/
+
+###Build docker image
+```docker build -t ayo-conversion:1.0 .```
+
+###Run docker image
+```docker run ayo-conversion:1.0```
