@@ -9,7 +9,7 @@ This API converts Metric to imperial and vice versa for the following 5 categori
 
 The postman collection is located under test/postman directory
 
-###Application start
+## Application start
 Build the project using
 ```mvn clean install```# Ayo Conversion API
 This API converts Metric to imperial and vice versa for the following 5 categories:
@@ -22,7 +22,7 @@ This API converts Metric to imperial and vice versa for the following 5 categori
 
 The postman collection is located under test/postman directory
 
-###Application start
+## Application start
 Build the project using
 ```mvn clean install```
 
@@ -31,11 +31,11 @@ To run the application:
 
 The Junits can be found under test/java directory
 
-###Accessing swagger
+## Accessing swagger
 http://localhost:8080/swagger-ui/
 
-###Build docker image
+### Build docker image
 ```docker build -t ayo-conversion:1.0 .```
 
-###Run docker image
+## Run docker image
 ```docker run ayo-conversion:1.0```
